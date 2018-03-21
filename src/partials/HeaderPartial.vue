@@ -3,6 +3,7 @@
     div.container
       nav.text-center.navbar-dark
         a.navbar-brand(href="#") Pokedox Virtual
+      h1.text-center Anlly Clariza :)
           
 </template>
 

@@ -1,6 +1,7 @@
 <template lang='pug'>
   div.default-layout
     header-partial
+    slot(name="filters")
     main.main-section.mb-5
       div.container
         slot(name="content")
