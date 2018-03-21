@@ -1,9 +1,12 @@
 <template lang='pug'>
   header.header
-    div.container
+    div.container.main-header
       nav.text-center.navbar-dark
-        a.navbar-brand(href="#") Pokedox Virtual
-      h1.text-center Anlly Clariza :)
+        router-link.navbar-bran(:to="{name: 'HomeView'}")
+          img.d-inline-block.align-top(src="../assets/pokemon.svg" width="30" height="30") 
+          p.pokedex Pókedex Virtual
+        
+      
           
 </template>
 
@@ -12,4 +15,22 @@ export default {
  name: 'HeaderPartial'
 }
 </script>
+
+
+<style lang='scss' >
+  .pokedex{
+    color: #fff;
+    font-size: 2em;
+    padding-left: 1em;
+    &:hover{
+     list-style: none;
+    }
+  }
+
+  a:hover{
+    text-decoration: none;
+  }
+ 
+</style>
+
 
