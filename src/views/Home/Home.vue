@@ -5,7 +5,7 @@
         div.row
           div.col-md-12.col-lg-6.ml-auto.mr-auto
             div.text-center
-              label Holaa!! Busca a tu pokemón favorito
+              label Holaa!! Busca a tu pokemón favorito :)
               input.form-control(type="text" placeholder="Introduce el nombre del pokemon" v-model="filter")
               small#emailHelp.form-text.text-muted Actualmente puede hacer búsquedas por nombre
     section.pokexex-items(slot="content")
