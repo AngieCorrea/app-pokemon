@@ -4,7 +4,7 @@
       nav.text-center.navbar-dark
         router-link.navbar-bran(:to="{name: 'HomeView'}")
           img.d-inline-block.align-top(src="../assets/pokemon.svg" width="30" height="30") 
-          p.pokedex Pókedex Virtual
+          p.pokedex Pókedex Virtual -- Angie Clariza
         
       
           
