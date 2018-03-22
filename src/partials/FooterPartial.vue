@@ -3,7 +3,7 @@
     div.container
       ul.nav.justify-content-center
         li.nav-item
-          span.nav-link Vue Workshop
+          span.nav-link Practicando Vue :P
       h1.text-center Anlly Clariza :)
 </template>
 
